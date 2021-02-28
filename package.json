@@ -1,0 +1,30 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "engines": {
+    "node": "15.8.0",
+    "npm": "7.5.1"
+  },
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdh5451/http-api-assignment-ii.git"
+  },
+  "author": "j hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdh5451/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/jdh5451/http-api-assignment-ii#readme",
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
